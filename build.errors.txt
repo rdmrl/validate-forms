@@ -1,0 +1,4 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - `__dirname` (vite.config.ts:13:22). Use `import.meta.dirname` instead
+  - JSON import "./package.json" without import attributes (vite.config.ts:6:25). Add `with { type: 'json' }`
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
