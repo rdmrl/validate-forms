@@ -4,7 +4,6 @@
     "lib": ["ESNext", "DOM"],
     "rootDir": "./src",
     "module": "ESNext",
-    /* "moduleResolution": "Node", */
     "resolveJsonModule": true,
     "strict": true,
     "noImplicitReturns": true,
