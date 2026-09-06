@@ -4,7 +4,6 @@ export default antfu(
   {
     typescript: true,
     ignores: [
-      '.github',
       'dist',
       'node_modules',
     ],
